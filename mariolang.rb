@@ -66,6 +66,9 @@ loop {
 				dirx = -dirx
 		end
 	end
+  while code[posy][posx].nil?
+    code[posy] << " "
+  end
 	exit 0 if posy == code.length - 1 or posx >= code[posy+1].length
 	if "><@".include?(code[posy][posx]) and skip == 0 then
 		elevator = false
