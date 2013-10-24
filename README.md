@@ -1,4 +1,4 @@
 mariolang.rb
 ============
 
-Interpreter for MarioLANG code
+Interpreter for [MarioLANG](http://esolangs.org/wiki/MarioLANG) code
