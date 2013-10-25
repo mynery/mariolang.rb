@@ -51,7 +51,7 @@ loop {
 			when ","
 				vars[varp] = STDIN.getc.ord
 			when ";"
-				vars[varp] = STDIN.read.to_i
+				vars[varp] = STDIN.gets.to_i
 			when ">"
 				dirx = 1
 			when "<"
